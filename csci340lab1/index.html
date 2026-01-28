@@ -33,7 +33,7 @@
                 </div>
 
                 <!-- https://getbootstrap.com/docs/5.0/utilities/flex/ -->
-                <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-center pb-4">
                     <img src="./media/screw.svg" width="400">
                     <div class="fs-4">goes on ↓</div>
                     <img src="./media/bike.svg" width="400">
@@ -41,8 +41,9 @@
             </div>
         </div>
 
-        <footer class="container mt-2">
-            <div class="row align-items-center">
+        <!-- https://getbootstrap.com/docs/5.0/utilities/position/#center-elements -->
+        <footer class="position-relative">
+            <div class="row align-items-center position-fixed bottom-0 w-75 start-50 translate-middle-x">
                 <span class="col">Made with 🥀</span>
                 <img src="./media/the-prompt.png" class="col">
             <div class="col">
