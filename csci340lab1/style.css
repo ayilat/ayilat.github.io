@@ -4,7 +4,7 @@ body {
 
 #title-header {
     font-family: "Montserrat";
-    font-weight: 300;
+    font-weight: 400;
 }
 
 body {
@@ -20,4 +20,5 @@ body {
 
 footer {
     background: white;
+    border-radius: 16px 16px 0 0;
 }
