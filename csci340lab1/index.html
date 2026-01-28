@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <div class="container col-md-6">
+        <div class="container col-md-6" id="main">
             <div class="text-center">
                 <h1 id="title-header">Bikes Screw Earthquake</h1>
                 <h4>by █████ ████</h3>
@@ -27,7 +27,14 @@
                 <li>Put them in a box?</li>
             </ol>
             <p>Nay! You must order <em>premium</em> bike screws!</p>
+
+            <!-- https://getbootstrap.com/docs/4.0/utilities/flex/ -->
+            <div class="d-flex flex-column align-items-center">
+                <img src="./media/screw.svg" width="400">
+                <img src="./media/bike.svg" width="400">
+            </div>
         </div>
+
         <footer class="container position-absolute bottom-0 text-center">
             <span style="float: left">Made with 🥀</span>
             <img src="./media/the-prompt.png" class="col">

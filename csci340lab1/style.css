@@ -1,7 +1,6 @@
-/* body { */
-/*     background: #222; */
-/*     color: #ddd; */
-/* } */
+body {
+    font-family: "Atkinson Hyperlegible Next";
+}
 
 #title-header {
     font-family: "Montserrat";
@@ -9,5 +8,16 @@
 }
 
 body {
-    font-family: "Atkinson Hyperlegible Next";
+    background-image: url("./media/earthquake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main {
+    background: white;
+    border-radius: 16px;
+}
+
+footer {
+    background: white;
 }
